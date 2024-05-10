@@ -1,0 +1,9 @@
+label {
+    display: block;
+}
+
+nav {
+    height: 500px;
+    height: 400%;
+    flex-direction: column;
+}
