@@ -3,7 +3,174 @@ label {
 }
 
 nav {
-    height: 500px;
-    height: 400%;
+background-color: rgb(29, 29, 29);
     flex-direction: column;
+justify-content: center;
+    display: flex;
+}
+
+nav label{
+    margin-left: 10%;
+}
+
+nav ul {
+    display: none;
+}
+
+.contenedor{
+    width: 95%;
+    margin-top: 13%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, label{
+    display: none;
+}
+
+body {
+
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    background: #333;
+}
+
+.img1{
+  width: 70%;
+background-size: cover;
+}
+
+
+nav {
+    width: 100%;
+    height: 8%;
+    position: fixed;
+}
+
+nav ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 1px 2%;
+    width: 20%;
+    height: 50%;
+    display: inline;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgb(255, 223, 118);
+    border:1px solid #ffee00;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(223, 171, 0);
+}
+
+ul,
+a,
+h2 {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2vh;
+    color: rgb(189, 170, 0);
+}
+
+.juanes {
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+    border: 1px #fffbdc solid;
+}
+
+.cajaBio {
+    border: 2px solid #837400;
+    border-radius: 15px;
+    position: absolute;
+    backdrop-filter: blur(20px);
+    top: 24%;
+    height: 35%;
+    width: 50%;
+    opacity: 0%;
+    transition: opacity 1s;
+}
+
+
+.juanes:hover {
+    transform: scale(1.1);
+}
+
+.juanes:hover+.cajaBio {
+
+    opacity: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vh;
+    color: rgb(194, 174, 0);
+}
+
+p {
+    margin: 0%;
+    font-size: 130%;
+    font-style: italic;
+    color: #fffad1;
+
+}
+
+.contenedor {
+    margin: auto;
+    margin-top: 8%;
+    border: #ccc 1px solid;
+    width: 80%;
+    height: 200%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 80%;
+    height: 10%;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
 }
