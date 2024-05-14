@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-input, label{
+input,
+label {
     display: none;
 }
 
@@ -18,9 +19,9 @@ body {
     background: #333;
 }
 
-.img1{
-  width: 70%;
-background-size: cover;
+.img1 {
+    width: 70%;
+    background-size: cover;
 }
 
 
@@ -38,22 +39,25 @@ nav ul {
     height: 100%;
     list-style-type: none;
     text-align: center;
+    backdrop-filter: blur(5px);
 }
 
 nav ul li {
     margin: 1px 2%;
     width: 20%;
     height: 50%;
-    display: inline;
+    justify-content: center;
+    align-items: center;
+    display: flex;
     border-radius: 10px;
     transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
+
 }
 
-nav ul li:hover{
+nav ul li:hover {
     transform: scale(1.1);
     box-shadow: 0 0 10px rgb(255, 223, 118);
-    border:1px solid #ffee00;
+    border: 1px solid #ffee00;
 }
 
 
@@ -123,10 +127,9 @@ p {
 
 .contenedor {
     margin: auto;
-    margin-top: 8%;
-    border: #ccc 1px solid;
+    padding-top: 10%;
     width: 80%;
-    height: 200%;
+    text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
