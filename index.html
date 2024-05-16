@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTAFOLIO JUANES</title>
-    <link rel="stylesheet" href="style.css" media="all">
-    <link rel="stylesheet" href="style-v3.css" media="screen and (max-width:500px)">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-mobile.css" media="screen and (max-width:500px)">
+    <link rel="stylesheet" href="style-desktop.css" media="screen and (max-width:1080px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,13 +16,13 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="nav">
 
 
-        <label for="nav" class="menu">
+        <label for="boton" class="menu">
             <i class="fa-solid fa-bars-staggered" style="color: #fffbd8;"></i>
         </label>
-        <input type="checkbox" id="nav">
+        <input type="checkbox" id="boton">
         <ul>
             <li><a href="#">cursos </a></li>
             <li><a href="#">proyectos</a></li>
@@ -56,37 +58,51 @@
             consequatur, ut fugit natus nostrum aliquid tempore quae nobis reprehenderit dolore, odio ipsa ex
             molestiae quas? Impedit.</p>
 
-        <br>
-        <br>
-        <br>
+    </section>
 
-        <h2>BIO</h2>
+
+
+    <section class="contenedor2">
+        <h2>habilidades</h2>
 
         <ul>
-            <li>edad</li>
-            <li>pais</li>
-            <li>otro</li>
-            <li></li>
-            <li></li>
+            <li>hacer arroz</li>
+            <li>frontend web</li>
+            <li>diseño web</li>
+            <li>perder el time</li>
+            <li>ux-ui</li>
         </ul>
 
-        <h2>puedes ver algunos de mis proyectos</h2>
-        <div class="v">
-            <h3>planetas gaseosos</h3>
-
+        <h2>technoligias</h2>
+        <div class="box">
+            <h3>html</h3>
         </div>
-        <div class="project">
-            <h3>medicina ancestral</h3>
 
+        <div class="box">
+            <h3>css</h3>
+        </div>
+
+        <div class="box">
+            <h3>javascript</h3>
+        </div>
+
+        <div class="box">
+            <h3>node</h3>
+        </div>
+
+        <div class="box">
+            <h3>three</h3>
+        </div>
+
+        <div class="box">
+            <h3>vue</h3>
         </div>
 
         <footer>
             <p>&copy; PAGINA HECHA POR ALAN.SOKA </p>
         </footer>
-
     </section>
-    <section class="container">
-        <div class="planetas"></div>
+
 </body>
 
 </html>
