@@ -2,7 +2,6 @@ nav {
     height: 50%;
     display: flex;
     flex-direction: column;
-
 }
 
 nav label {
@@ -10,7 +9,9 @@ nav label {
     height: 15%;
     align-items: center;
     display: flex;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(36, 36, 36);
+
+
 }
 .menu{
 padding-left: 5%;
@@ -19,11 +20,11 @@ padding-left: 5%;
 nav ul {
     flex-direction: column;
     display: none;
+    background-color: rgba(0, 0, 0, 0.384);
 } 
 nav ul li {
-width: 90%;
-margin: 0;
-
+width: 80%;
+margin: 3%;
 }
 i {
     font-size: 2rem;
