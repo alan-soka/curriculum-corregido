@@ -1,6 +1,6 @@
 body {
     nav {
-        height: 50%;
+        height: 60%;
         display: flex;
         flex-direction: column;
 
@@ -24,8 +24,10 @@ body {
             background-color: rgba(0, 0, 0, 0.384);
 
             li {
+                background-color: rgba(20, 20, 20, 0.712);
                 width: 80%;
-                margin: 3%;
+                margin: 4%;
+                border: 1px solid rgb(168, 151, 0);
             }
         }
 
@@ -33,14 +35,27 @@ body {
             font-size: 2rem;
         }
 
-        input#boton:checked + ul {
-            display:flex;
+        input#boton:checked+ul {
+            display: flex;
         }
     }
 
-    .contenedor { 
+    .contenedor,
+    .contenedor2 {
         width: 95%;
         margin-top: 10%;
+
+
+        .box {
+            width: 24%;
+            height: 6rem;
+            margin: 4%;
+        }
+
+
+
+
+
     }
 
     .cajaBio {
