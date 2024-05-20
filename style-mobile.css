@@ -40,6 +40,14 @@ body {
         }
     }
 
+    .cajaBio {
+        top: 6%;
+        width: 95%;
+        height: 19%;
+
+    }
+
+
     .contenedor,
     .contenedor2 {
         width: 95%;
