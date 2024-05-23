@@ -110,7 +110,7 @@ body {
         font-weight: 400;
         font-style: normal;
         color: rgb(194, 174, 0);
-        font-size: clamp(2.7rem, 1.8148rem + 0.9877vw, 3.5rem);
+        font-size: clamp(2.7rem, 1.8148rem + 0.9877vw, 5rem);
     }
 
     p,
@@ -194,6 +194,7 @@ body {
 
     50% {
         transform: scale(1.1);
+        box-shadow: inset 10px solid blue;
     }
 
     100% {
