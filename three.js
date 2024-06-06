@@ -23,12 +23,12 @@ controls.maxDistance = 100;
 controls.maxPolarAngle = Math.PI / 2;
 
 // Luz direccional roja a la izquierda
-const redLight = new THREE.DirectionalLight(0xec5353, 2);
+const redLight = new THREE.DirectionalLight(0xff0000, 2);
 redLight.position.set(-5, 5, -2).normalize();
 scene.add(redLight);
 
 // Luz direccional azul a la derecha
-const blueLight = new THREE.DirectionalLight(0x00ffff, 1);
+const blueLight = new THREE.DirectionalLight(0x0000ff, 2);
 blueLight.position.set(5, -5, -2).normalize();
 scene.add(blueLight);
 
